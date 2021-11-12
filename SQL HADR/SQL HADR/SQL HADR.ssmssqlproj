@@ -103,11 +103,23 @@
           <AssociatedConnUserName />
           <FullPath>06_AVG.sql</FullPath>
         </FileNode>
+        <FileNode Name="10c_SQL Condition LEvel setzen.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>10c_SQL Condition LEvel setzen.sql</FullPath>
+        </FileNode>
         <FileNode Name="Bestandserfassung.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
           <AssociatedConnSrvName>NODETWO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Bestandserfassung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="toDO.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>toDO.sql</FullPath>
         </FileNode>
         <FileNode Name="X_Recap.sql">
           <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
