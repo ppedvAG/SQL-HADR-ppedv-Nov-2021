@@ -27,6 +27,18 @@
           <ConnectionProtocol>NotSpecified</ConnectionProtocol>
           <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
         </ConnectionNode>
+        <ConnectionNode Name="SQLCLUST\PRODUKTION:SQLDOM\Administrator">
+          <Created>2021-11-12T13:21:42.3346456+01:00</Created>
+          <Type>SQL</Type>
+          <Server>SQLCLUST\PRODUKTION</Server>
+          <UserName />
+          <Authentication>Windows-Authentifizierung</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Abfrage</ApplicationName>
+        </ConnectionNode>
       </Items>
     </LogicalFolder>
     <LogicalFolder Name="Abfragen" Type="0" Sorted="true">
@@ -56,8 +68,8 @@
           <FullPath>02_MIrror.sql</FullPath>
         </FileNode>
         <FileNode Name="02_ScriptFürPrimDB.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODETWO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>02_ScriptFürPrimDB.sql</FullPath>
         </FileNode>
@@ -74,8 +86,8 @@
           <FullPath>04_Cluster_Inventar.sql</FullPath>
         </FileNode>
         <FileNode Name="04_Mirror.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODEONE:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODEONE</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>04_Mirror.sql</FullPath>
         </FileNode>
@@ -85,11 +97,23 @@
           <AssociatedConnUserName />
           <FullPath>05_SQLCluster.sql</FullPath>
         </FileNode>
+        <FileNode Name="06_AVG.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQLCLUST\PRODUKTION:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQLCLUST\PRODUKTION</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>06_AVG.sql</FullPath>
+        </FileNode>
         <FileNode Name="Bestandserfassung.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODETWO</AssociatedConnSrvName>
           <AssociatedConnUserName />
           <FullPath>Bestandserfassung.sql</FullPath>
+        </FileNode>
+        <FileNode Name="X_Recap.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:NODETWO:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>NODETWO</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>X_Recap.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
